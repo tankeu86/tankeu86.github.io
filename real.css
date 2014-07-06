@@ -1,0 +1,91 @@
+#main{
+	
+	width:1200px;
+	height:815px;
+	margin-left:auto;
+	margin-right:auto;
+	background:aqua;
+}
+#header{
+	
+	text-align:center;
+	font:bold 1.3em "comic sans ms";
+	text-shadow:5px 5px 5px purple;
+	color:maroon;
+	
+}
+
+#nav_bar{
+	
+}
+
+#nav_bar ul{
+	list-style-type:none;
+	text-align:left;
+	padding:5px
+}
+
+#nav_bar ul li{
+	display:inline-block;
+	padding:5px;
+	font:bold 25px tohama;
+	border:3px solid purple;
+	background:lightblue;
+	box-shadow:5px 5px 5px lightblue;
+	border-radius:15px;
+}
+
+#nav_bar ul li a{
+	text-decoration:none;
+}
+
+#nav_bar ul li ul li{
+	display:none;
+	margin-left:-40px;
+}
+
+#nav_bar ul li :visited {
+	color:green;
+}
+
+#nav_bar  ul li:hover {
+	box-shadow:5px 5px 5px lightgreen;
+	border-radius:10px;
+	color:orange;
+}
+#nav_bar  ul li:active {
+	color:orange;
+}
+
+#aside_left{
+	
+	float:left;
+	width:300px;
+	padding:7px;
+	height:500px;
+	overflow:auto;
+}
+
+#center_block{
+	
+	float:left;
+	width:550px;
+	padding:7px;
+	height:500px;
+	overflow:auto;
+}
+
+#aside_right{
+	
+	float:left;
+	width:300px;
+	padding:7px;
+	height:500px;
+	overflow:auto;
+}
+
+#footer_block{
+	
+	clear:both;
+	text-align:center;
+}
