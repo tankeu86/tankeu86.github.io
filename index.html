@@ -4,6 +4,29 @@
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="real.css" />
 		<title>real page</title>
+		<script type="text/javascript">
+			function makegreen(){
+				document.body.style.backgroundColor="green";
+				}
+			function makered(){
+				document.body.style.backgroundColor="red";
+				}
+			function makeyellow(){
+				document.body.style.backgroundColor="yellow";
+				}
+			function makepurple(){
+				document.body.style.backgroundColor="purple";
+				}
+			function makeaqua(){
+				document.body.style.backgroundColor="aqua";
+				}
+			function makeolive(){
+				document.body.style.backgroundColor="olive";
+				}
+			function maketeal(){
+				document.body.style.backgroundColor="teal";
+				}
+		</script>
 	</head>
 	<body>
 		<div id="main">
@@ -89,6 +112,18 @@
 				vehicula, massa nibh ullamcorper lectus, nec sagittis mauris neque in nisl. Sed tellus sem, volutpat vitae est non, 
 				rutrum hendrerit tortor. Suspendisse et egestas sem, ac tincidunt felis.</p>
 			</div>
+			<form action="">
+				<fieldset>
+					<legend>Choose your backgroundColor</legend>
+					<input type="button" value="green" onclick="makegreen()">
+					<input type="button" value="red" onclick="makered()">
+					<input type="button" value="yellow" onclick="makeyellow()">
+					<input type="button" value="purple" onclick="makepurple()">
+					<input type="button" value="aqua" onclick="makeaqua()">
+					<input type="button" value="olive" onclick="makeolive()">
+					<input type="button" value="teal" onclick="maketeal()">
+				</fieldset>
+			</form>
 			<div id="footer_block">
 				<h2>Footer</h2>
 				<address>
