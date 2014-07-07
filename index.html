@@ -5,33 +5,10 @@
 		<link rel="stylesheet" type="text/css" href="real.css" />
 		<title>real page</title>
 		<script type="text/javascript">
-			function makegreen(){
-				document.body.style.backgroundColor="green";
+			function changecolor('color'){
+				document.body.style.backgroundColor="color";
 				}
-			function makered(){
-				document.body.style.backgroundColor="red";
-				}
-			function makeyellow(){
-				document.body.style.backgroundColor="yellow";
-				}
-			function makepurple(){
-				document.body.style.backgroundColor="purple";
-				}
-			function makeaqua(){
-				document.body.style.backgroundColor="aqua";
-				}
-			function makeolive(){
-				document.body.style.backgroundColor="olive";
-				}
-			function maketeal(){
-				document.body.style.backgroundColor="teal";
-				}
-			function makewhite(){
-				document.body.style.backgroundColor="white";
-				}
-			function makeblue(){
-				document.body.style.backgroundColor="blue";
-				}
+			
 		</script>
 	</head>
 	<body>
@@ -121,15 +98,15 @@
 			<form action="">
 				<fieldset>
 					<legend>Choose your backgroundColor</legend>
-					<input type="button" value="green" onclick="makegreen()">
-					<input type="button" value="red" onclick="makered()">
-					<input type="button" value="yellow" onclick="makeyellow()">
-					<input type="button" value="purple" onclick="makepurple()">
-					<input type="button" value="aqua" onclick="makeaqua()">
-					<input type="button" value="olive" onclick="makeolive()">
-					<input type="button" value="teal" onclick="maketeal()">
-					<input type="button" value="white" onclick="makewhite()">
-					<input type="button" value="blue" onclick="makeblue()">
+					<input type="button" value="green" onclick="changecolor('green')">
+					<input type="button" value="red" onclick="changecolor('red')">
+					<input type="button" value="yellow" onclick="changecolor('yellow')">
+					<input type="button" value="purple" onclick="changecolor('purple')">
+					<input type="button" value="aqua" onclick="changecolor('aqua')">
+					<input type="button" value="olive" onclick="changecolor('olive')">
+					<input type="button" value="teal" onclick="changecolor('teal')">
+					<input type="button" value="white" onclick="changecolor('white')">
+					<input type="button" value="blue" onclick="changecolor('blue')">
 				</fieldset>
 			</form>
 			<div id="footer_block">
