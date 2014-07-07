@@ -1,7 +1,7 @@
 #main{
 	
 	width:1200px;
-	height:830px;
+	height:840px;
 	margin-left:auto;
 	margin-right:auto;
 	background:aqua;
@@ -88,10 +88,13 @@ fieldset{
 	width:500px;
 	margin-left:auto;
 	margin-right:auto;
+	text-align:center;
+	padding:5px;
 }
 
 #footer_block{
 	
 	clear:both;
 	text-align:center;
+	
 }
